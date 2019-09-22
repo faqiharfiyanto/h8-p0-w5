@@ -5,6 +5,7 @@ function meleeRangedGrouping (str) {
     var result = [[],[]]
     var splitOne = str.split(',')
     var tempOne = []
+    
     for (var i=0; i<splitOne.length; i++) {
         tempOne.push(splitOne[i].split('-'))
     }
